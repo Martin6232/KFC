@@ -1,0 +1,94 @@
+/*encabezado*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    height: 80px;
+    width: 160px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 30px;
+    flex: 2;
+}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.ingresar {
+    color: #ffff;
+    background-color: #272329;
+    height: 50px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    flex: 1;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #ffff;
+    
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+}
+.perfil {
+    height: 40px;
+    width: 30px;
+}
+
+.cupon {
+    height: 40px;
+    width: 40px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    height: 30px;
+    flex: 3;
+}
+
+/*body*/
+
+#container {
+    background-color: #272329;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto {
+    color: #FFFF;
+}
+
+.pollo {   
+}
