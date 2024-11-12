@@ -14,7 +14,7 @@
 .container {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding-left: 40px;
 }
 
 
@@ -29,6 +29,7 @@ ul {
 li {
     margin: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .ingresar {
@@ -52,7 +53,10 @@ li {
     width: 50px;
     margin: 20px;
     background-color: #ffff;
-    
+}
+
+button{
+    cursor: pointer;
 }
 
 .icon {
@@ -83,7 +87,7 @@ input {
 
 #container {
     background-color: #272329;
-    height: 40px;
+    height: 20px;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -91,8 +95,60 @@ input {
 
 .texto {
     color: #FFFF;
+    cursor: pointer;
 }
 
 .pollo {  
     width: 100%;
+}
+
+.menubtn {
+    background-color: #e5002b;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: #FFFF;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+/*Menú*/
+#container-menu {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#container-prodructos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.food {
+    margin: 10px;
+    border-radius: 15px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 0px 1px 1px  black;
+    font-size: 10px;
+    cursor: pointer;
+}
+.food:hover {
+    zoom: 1.01;
+}
+
+.foto {
+    border-radius: 5px;
+    height: 200px;
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+.text2{
+    margin-bottom: 40px;
 }
