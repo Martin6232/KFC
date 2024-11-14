@@ -118,6 +118,7 @@ input {
 #container-menu {
     padding-left: 80px;
     padding-right: 80px;
+    margin-bottom: 40px;
 }
 
 #container-prodructos {
@@ -138,7 +139,7 @@ input {
 .food:hover {
     height: 260px;
     width: 210px;
-    transition: 0.3S;
+    transition: 0.4S;
 }
 
 .foto {
