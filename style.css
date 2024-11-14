@@ -23,7 +23,7 @@ ul {
     display: flex;
     list-style-type: none;
     padding: 30px;
-    flex: 2;
+    flex: 3;
 }
 
 li {
@@ -35,12 +35,10 @@ li {
 .ingresar {
     color: #ffff;
     background-color: #272329;
-    height: 50px;
+    height: 40px;
     margin: 10px;
-    width: 100px;
     border-radius: 20px;
     border: none;
-    padding: 20px;
     flex: 1;
 }
 
@@ -80,7 +78,7 @@ input {
     border: none;
     background-color: #f1f1f1;
     height: 20px;
-    flex: 3;
+    flex: 2;
 }
 
 /*body*/
@@ -152,4 +150,73 @@ input {
 
 .text2{
     margin-bottom: 40px;
+}
+
+/*footer*/
+.cont_footer {
+    background-color: #f8f7f5;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+.img_footer {
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.info_text {
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.info_container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.info {
+    width: 200px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.apps {
+    padding-right: 5px;
+    flex: 2;
+    text-align: center;
+}
+
+.img-app {
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.redes {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+#derechos {
+    display: flex;
+    box-shadow: 0px -1px 1px ;
+    padding-top: 20px;
+}
+.derechos {
+    flex: 1;
+}
+
+.diseño {
+ margin-right: 50PX;
+}
+
+/*detalles*/
+a {
+    text-decoration: none;
+    color: black;
 }
